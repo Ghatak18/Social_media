@@ -10,7 +10,7 @@ import "./topbar.css"
 import myimg1 from "../../assets/person/selfie1.jpg"
 const Topbar = () => {
   return (
-    <div className='fixed top-0 left-0 bg-slate-700
+    <div className=' sticky top-0 left-0 bg-slate-700
     w-screen h-16 text-yellow-50 flex justify-between'>
       <div className='flex justify-between '>
         <div className='m-4 mt-2 '>

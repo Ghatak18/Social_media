@@ -5,12 +5,13 @@ import mayankpic from "../../assets/person/mayankpic.png"
 import tusharpic from "../../assets/person/tusharpic.png"
 import { FaSearch } from "react-icons/fa";
 import Friendson from '../friendson/friendson';
+import "./rightbar.css"
 
 
 
 const Rightbar = () => {
   return (
-    <div className='bg-slate-900 text-yellow-50 h-screen w-80 fixed left-0 top-16 '>
+    <div className='rightbar'>
         <div className='flex justify-between'>
             <span className='ml-4 my-4'>Friend Requests</span>
             <span className='mr-4 my-4 '>See All</span>
@@ -39,7 +40,17 @@ const Rightbar = () => {
         </div>
         <div>
             <Friendson img={fizapic} name = "Fiza Yasmin" />
+            <Friendson img={fizapic} name = "Fiza Yasmin" />
+            <Friendson img={fizapic} name = "Fiza Yasmin" />
+            <Friendson img={fizapic} name = "Fiza Yasmin" />
+            <Friendson img={fizapic} name = "Fiza Yasmin" />
             <Friendson img={mayankpic} name = "Mayank mallick" />
+            <Friendson img={tusharpic} name = "Tushar Kanti Das" />
+            <Friendson img={tusharpic} name = "Tushar Kanti Das" />
+            <Friendson img={tusharpic} name = "Tushar Kanti Das" />
+            <Friendson img={tusharpic} name = "Tushar Kanti Das" />
+            <Friendson img={tusharpic} name = "Tushar Kanti Das" />
+            <Friendson img={tusharpic} name = "Tushar Kanti Das" />
             <Friendson img={tusharpic} name = "Tushar Kanti Das" />
         </div>
 

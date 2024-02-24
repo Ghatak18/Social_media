@@ -1,0 +1,10 @@
+.feed{
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh-64px);
+    /* flex:5; */
+    /* background-color: brown; */
+    width: calc(100vw-704px);
+    margin-left: 250px;
+    padding-right: 100px;
+}

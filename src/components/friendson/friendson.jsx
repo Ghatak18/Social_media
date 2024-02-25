@@ -8,7 +8,7 @@ const Friendson = (props) => {
 
 
   return (
-    <div className='flex align-middle my-4'>
+    <div className='flex align-middle my-4 hover:bg-neutral-800 rounded-md'>
         <div className='flex'>
         <img className="ml-5 h-12 w-12 rounded-full" src={props.img}/>
         <span className="onlineindicator">00</span>

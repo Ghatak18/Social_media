@@ -1,7 +1,7 @@
 .rightbar{
     height: calc(100vh - 64px);
-    --tw-bg-opacity: 1;
-    background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+    
+    background-color:#303236; 
     --tw-text-opacity: 1;
     color: rgb(254 252 232 / var(--tw-text-opacity));
     width: 20rem/* 320px */;

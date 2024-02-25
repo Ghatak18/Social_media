@@ -10,11 +10,11 @@ import "./topbar.css"
 import myimg1 from "../../assets/person/selfie1.jpg"
 const Topbar = () => {
   return (
-    <div className=' sticky top-0 left-0 bg-slate-700
+    <div className=' topbar sticky top-0 left-0
     w-screen h-16 text-yellow-50 flex justify-between'>
       <div className='flex justify-between '>
         <div className='m-4 mt-2 '>
-          < GiEagleHead size={56}/>
+          < GiEagleHead size={56} className='hover:text-gray-500'/>
         </div>
         {/* <div className='m-4'>
           <span className='font-extrabold text-xl'>Eagle Eyes</span>
@@ -25,20 +25,20 @@ const Topbar = () => {
         </div>
       </div> 
       <div className='flex'>
-        <div className='m-4 mr-15'>
-          <FaHome size={36}/>
+        <div className='m-4 mr-15 '>
+          <FaHome size={36} className='hover:text-gray-500'/>
         </div>
         <div className='m-4 mr-60'>
-          <IoPeopleSharp size={36}/>
+          <IoPeopleSharp size={36} className='hover:text-gray-500'/>
         </div>
       </div> 
 
       <div className='flex '>
         <div className='m-4'>
-          <LuMessagesSquare size={36}/>
+          <LuMessagesSquare size={36} className='hover:text-gray-500'/>
         </div>
         <div className='m-4'>
-          <IoIosNotifications size={36}/>
+          <IoIosNotifications size={36} className='hover:text-gray-500'/>
           <span className="topbarIconBadge">1</span>
         </div>
         <div className='m-4'>

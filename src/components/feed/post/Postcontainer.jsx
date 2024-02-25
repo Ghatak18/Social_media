@@ -11,8 +11,8 @@ import Post from './Post'
 
 const Postcontainer = () => {
   return (
-    <div className='flex justify-center w-full  grow'>
-        <div className='flex flex-col w-full overflow-x-hidden'>
+    <div className='flex justify-center w-full  grow '>
+        <div className='flex flex-col w-full overflow-x-hidden pl-20'>
             <Post profpic={fizapic} name="Fiza Yasmin" caption="wowww" cont={fizapost}/>
             <Post profpic={tusharpic} name="Tushar Kanti Das" caption="Beautiful Sunset" cont={tusharpost}/>
             <Post profpic={mayankpic} name="Mayank Mallick" caption="Nice yoo" cont={mayankpost}/>

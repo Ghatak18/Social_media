@@ -6,9 +6,18 @@ import { LuMessagesSquare } from "react-icons/lu";
 import { GiEagleHead } from "react-icons/gi";
 import { FaSearch } from "react-icons/fa";
 import "./topbar.css"
+import { useNavigate } from 'react-router-dom';
 // import myimg from "../././../assets/person/selfie1.JPG"
 import myimg1 from "../../assets/person/selfie1.jpg"
 const Topbar = () => {
+  const navigate = useNavigate();
+  const handleProf = () =>{
+    navigate("/profile")
+  }
+
+  const handleHome = () =>{
+    navigate("/")
+  }
   return (
     <div className=' topbar sticky top-0 left-0
     w-screen h-16 text-yellow-50 flex justify-between'>
@@ -26,10 +35,10 @@ const Topbar = () => {
       </div> 
       <div className='flex'>
         <div className='m-4 mr-15 '>
-          <FaHome size={36} className='hover:text-gray-500'/>
+          <FaHome size={36} className='hover:text-gray-500' onClick={handleHome}/>
         </div>
         <div className='m-4 mr-60'>
-          <IoPeopleSharp size={36} className='hover:text-gray-500'/>
+          <IoPeopleSharp size={36} className='hover:text-gray-500' onClick={handleProf}/>
         </div>
       </div> 
 

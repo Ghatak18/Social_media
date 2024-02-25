@@ -11,12 +11,12 @@ import "./rightbar.css"
 
 const Rightbar = () => {
   return (
-    <div className='rightbar '>
+    <div className='rightbar bg-neutral-800 '>
         <div className='flex justify-between'>
             <span className='ml-4 my-4'>Friend Requests</span>
             <span className='mr-4 my-4 '>See All</span>
         </div>
-        <div className='m-4 '>
+        <div className='my-4 mx-2 hover:bg-neutral-800 rounded-md p-2'>
             <div className=' flex'>
                 <img className="rounded-full h-16 w-16  mb-1"src={ankitapic}/>
                 <div className='ml-4 flex flex-col '>

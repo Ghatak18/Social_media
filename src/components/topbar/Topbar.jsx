@@ -18,6 +18,10 @@ const Topbar = () => {
   const handleHome = () =>{
     navigate("/")
   }
+
+  const handleFriend = () =>{
+    navigate("/friends")
+  }
   return (
     <div className=' topbar sticky top-0 left-0
     w-screen h-16 text-yellow-50 flex justify-between'>
@@ -38,7 +42,7 @@ const Topbar = () => {
           <FaHome size={36} className='hover:text-gray-500' onClick={handleHome}/>
         </div>
         <div className='m-4 mr-60'>
-          <IoPeopleSharp size={36} className='hover:text-gray-500' onClick={handleProf}/>
+          <IoPeopleSharp size={36} className='hover:text-gray-500' onClick={handleFriend}/>
         </div>
       </div> 
 
@@ -51,7 +55,7 @@ const Topbar = () => {
           <span className="topbarIconBadge">1</span>
         </div>
         <div className='m-4'>
-          <img className="rounded-full h-10 w-10"src={myimg1}/>
+          <img className="rounded-full h-10 w-10" onClick={handleProf}  src={myimg1}/>
         </div>
       </div> 
 

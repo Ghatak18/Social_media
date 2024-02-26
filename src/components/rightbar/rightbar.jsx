@@ -16,7 +16,7 @@ const Rightbar = () => {
             <span className='ml-4 my-4'>Friend Requests</span>
             <span className='mr-4 my-4 '>See All</span>
         </div>
-        <div className='my-4 mx-2 hover:bg-neutral-800 rounded-md p-2'>
+        <div className='my-4 mx-2 bg-neutral-700 hover:bg-neutral-900 rounded-md p-2'>
             <div className=' flex'>
                 <img className="rounded-full h-16 w-16  mb-1"src={ankitapic}/>
                 <div className='ml-4 flex flex-col '>

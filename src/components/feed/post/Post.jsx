@@ -12,7 +12,7 @@ const Post = (props) => {
     <div className='flex flex-col justify-center m-4 w-[455px] rounded-xl post'>
         <div className='flex justify-center'>
             <div className='flex justify-start w-[460px] bg-neutral-900 pt-2'>
-                <img className='h-14 w-14 rounded-full my-1 mx-2' src={profpic}/>
+                <img className='img h-14 w-14 rounded-full my-1 mx-2' src={profpic}/>
                 <div className='flex flex-col mx-3  w-full'>
                     <span className='font-bold text-white text-lg'>{name}</span>
                     <span className='text-yellow-100 text-xs mt-2'>{caption}</span>

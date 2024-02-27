@@ -47,14 +47,14 @@ const Topbar = () => {
       </div> 
 
       <div className='flex '>
-        <div className='m-4'>
+        {/* <div className='m-4'>
           <LuMessagesSquare size={36} className='hover:text-gray-500'/>
         </div>
         <div className='m-4'>
           <IoIosNotifications size={36} className='hover:text-gray-500'/>
           <span className="topbarIconBadge">1</span>
-        </div>
-        <div className='m-4'>
+        </div> */}
+        <div className='m-4 mr-8'>
           <img className="rounded-full h-10 w-10" onClick={handleProf}  src={myimg1}/>
         </div>
       </div> 

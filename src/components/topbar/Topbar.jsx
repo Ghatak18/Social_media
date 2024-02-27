@@ -27,7 +27,7 @@ const Topbar = () => {
     w-screen h-16 text-yellow-50 flex justify-between'>
       <div className='flex justify-between '>
         <div className='m-4 mt-2 '>
-          < GiEagleHead size={56} className='hover:text-gray-500'/>
+          < GiEagleHead size={56} className='hover:text-gray-500' onClick={handleHome}/>
         </div>
         {/* <div className='m-4'>
           <span className='font-extrabold text-xl'>Eagle Eyes</span>

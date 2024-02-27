@@ -40,17 +40,9 @@ const Rightbar = () => {
         </div>
         <div>
             <Friendson img={fizapic} name = "Fiza Yasmin" />
-            <Friendson img={fizapic} name = "Fiza Yasmin" />
-            <Friendson img={fizapic} name = "Fiza Yasmin" />
-            <Friendson img={fizapic} name = "Fiza Yasmin" />
-            <Friendson img={fizapic} name = "Fiza Yasmin" />
+           
             <Friendson img={mayankpic} name = "Mayank mallick" />
-            <Friendson img={tusharpic} name = "Tushar Kanti Das" />
-            <Friendson img={tusharpic} name = "Tushar Kanti Das" />
-            <Friendson img={tusharpic} name = "Tushar Kanti Das" />
-            <Friendson img={tusharpic} name = "Tushar Kanti Das" />
-            <Friendson img={tusharpic} name = "Tushar Kanti Das" />
-            <Friendson img={tusharpic} name = "Tushar Kanti Das" />
+           
             <Friendson img={tusharpic} name = "Tushar Kanti Das" />
         </div>
 
